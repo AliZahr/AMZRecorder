@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849B4FB41E28DB330013A0AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B4FB31E28DB330013A0AC /* main.m */; };
+		849B4FB71E28DB330013A0AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B4FB61E28DB330013A0AC /* AppDelegate.m */; };
+		849B4FBA1E28DB330013A0AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B4FB91E28DB330013A0AC /* ViewController.m */; };
+		849B4FBD1E28DB330013A0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B4FBB1E28DB330013A0AC /* Main.storyboard */; };
+		849B4FBF1E28DB330013A0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849B4FBE1E28DB330013A0AC /* Assets.xcassets */; };
+		849B4FC21E28DB330013A0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B4FC01E28DB330013A0AC /* LaunchScreen.storyboard */; };
+		849B4FCB1E28DB9E0013A0AC /* AMZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B4FCA1E28DB9E0013A0AC /* AMZRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849B4FAF1E28DB330013A0AC /* AMZRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMZRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B4FB31E28DB330013A0AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849B4FB51E28DB330013A0AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849B4FB61E28DB330013A0AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849B4FB81E28DB330013A0AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849B4FB91E28DB330013A0AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849B4FBC1E28DB330013A0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849B4FBE1E28DB330013A0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849B4FC11E28DB330013A0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849B4FC31E28DB330013A0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B4FC91E28DB9E0013A0AC /* AMZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMZRecorder.h; sourceTree = "<group>"; };
+		849B4FCA1E28DB9E0013A0AC /* AMZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMZRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849B4FAC1E28DB330013A0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849B4FA61E28DB330013A0AC = {
+			isa = PBXGroup;
+			children = (
+				849B4FB11E28DB330013A0AC /* AMZRecorder */,
+				849B4FB01E28DB330013A0AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849B4FB01E28DB330013A0AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B4FAF1E28DB330013A0AC /* AMZRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849B4FB11E28DB330013A0AC /* AMZRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				849B4FB51E28DB330013A0AC /* AppDelegate.h */,
+				849B4FB61E28DB330013A0AC /* AppDelegate.m */,
+				849B4FB81E28DB330013A0AC /* ViewController.h */,
+				849B4FB91E28DB330013A0AC /* ViewController.m */,
+				849B4FBB1E28DB330013A0AC /* Main.storyboard */,
+				849B4FBE1E28DB330013A0AC /* Assets.xcassets */,
+				849B4FC01E28DB330013A0AC /* LaunchScreen.storyboard */,
+				849B4FC31E28DB330013A0AC /* Info.plist */,
+				849B4FB21E28DB330013A0AC /* Supporting Files */,
+				849B4FC91E28DB9E0013A0AC /* AMZRecorder.h */,
+				849B4FCA1E28DB9E0013A0AC /* AMZRecorder.m */,
+			);
+			path = AMZRecorder;
+			sourceTree = "<group>";
+		};
+		849B4FB21E28DB330013A0AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849B4FB31E28DB330013A0AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849B4FAE1E28DB330013A0AC /* AMZRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B4FC61E28DB330013A0AC /* Build configuration list for PBXNativeTarget "AMZRecorder" */;
+			buildPhases = (
+				849B4FAB1E28DB330013A0AC /* Sources */,
+				849B4FAC1E28DB330013A0AC /* Frameworks */,
+				849B4FAD1E28DB330013A0AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMZRecorder;
+			productName = AMZRecorder;
+			productReference = 849B4FAF1E28DB330013A0AC /* AMZRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849B4FA71E28DB330013A0AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					849B4FAE1E28DB330013A0AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 849B4FAA1E28DB330013A0AC /* Build configuration list for PBXProject "AMZRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849B4FA61E28DB330013A0AC;
+			productRefGroup = 849B4FB01E28DB330013A0AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849B4FAE1E28DB330013A0AC /* AMZRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849B4FAD1E28DB330013A0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B4FC21E28DB330013A0AC /* LaunchScreen.storyboard in Resources */,
+				849B4FBF1E28DB330013A0AC /* Assets.xcassets in Resources */,
+				849B4FBD1E28DB330013A0AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849B4FAB1E28DB330013A0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B4FBA1E28DB330013A0AC /* ViewController.m in Sources */,
+				849B4FB71E28DB330013A0AC /* AppDelegate.m in Sources */,
+				849B4FCB1E28DB9E0013A0AC /* AMZRecorder.m in Sources */,
+				849B4FB41E28DB330013A0AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849B4FBB1E28DB330013A0AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B4FBC1E28DB330013A0AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849B4FC01E28DB330013A0AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B4FC11E28DB330013A0AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849B4FC41E28DB330013A0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849B4FC51E28DB330013A0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849B4FC71E28DB330013A0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AMZRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zahr.AMZRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849B4FC81E28DB330013A0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AMZRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zahr.AMZRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849B4FAA1E28DB330013A0AC /* Build configuration list for PBXProject "AMZRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B4FC41E28DB330013A0AC /* Debug */,
+				849B4FC51E28DB330013A0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B4FC61E28DB330013A0AC /* Build configuration list for PBXNativeTarget "AMZRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B4FC71E28DB330013A0AC /* Debug */,
+				849B4FC81E28DB330013A0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849B4FA71E28DB330013A0AC /* Project object */;
+}

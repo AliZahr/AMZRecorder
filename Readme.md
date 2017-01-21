@@ -97,6 +97,9 @@ These methods are optional ones to help you keep track of the recorded file.
 ####Get the record duration
 * audioKit.RecordDuration
 
+####Set audio player offset(from where to start playing the audio)
+* audioKit.PlayDuration
+
 ####Check if there is a record file or not (FileData != nil)
 * audioKit.FileData
 

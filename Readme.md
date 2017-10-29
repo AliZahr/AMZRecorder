@@ -35,9 +35,9 @@ Drag and Drop the the files "AMZRecorder.h" and "AMZRecorder.m" to your project.
 ```
 AMZRecorder *audioKit = [[AMZRecorder alloc] initAudioRecorder];
 audioKit.delegate = self;
-audioKit.MaxRecordingTime = 10;
+audioKit.MaxRecordingTime = 10; // in seconds
 ```
-audioKit object comforms to `<AMZRecorderDelegate>` delegate
+audioKit object conforms to `<AMZRecorderDelegate>` delegate
 
 ###Delegate Methods
 These delegate methods are mainly used to help you implement your UI changes whenever you change from a state to another. You can apply whatever logic you wish inside them.

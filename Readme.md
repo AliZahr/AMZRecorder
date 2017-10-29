@@ -83,7 +83,7 @@ These methods are optional ones to help you keep track of the recorded file.
 	// Used when saving the current record to the memory and when combining  
 	the new record files together.
 	//The best practice is to implement an Activity Indicator (Loader) in the  
-	method ProfAudioDidPauseRecording then inside this method hide the loader  
+	method AMZAudioDidPauseRecording then inside this method hide the loader  
 	to make sure that the recorded file is successfully saved to the memory.
 }
 ```

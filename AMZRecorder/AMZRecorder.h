@@ -6,7 +6,6 @@
 //  Copyright © 2017 Admin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
 @protocol AMZRecorderDelegate <NSObject>
